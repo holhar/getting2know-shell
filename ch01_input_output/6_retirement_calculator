@@ -1,0 +1,7 @@
+#!/bin/bash
+
+read -p "What is your age? " currentAge
+read -p "At what age would you like to retire? " retireAge
+echo "You have $((retireAge - currentAge))" years left until you can retire.
+currentYear=`date +"%Y"`
+echo "It's $currentYear, so you can retire in $((currentYear + retireAge - currentAge))."

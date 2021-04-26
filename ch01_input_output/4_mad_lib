@@ -1,0 +1,7 @@
+#!/bin/bash
+
+read -p "Enter a noun: " noun
+read -p "Enter a verb: " verb
+read -p "Enter an adjective: " adjective
+read -p "Enter an adverb: " adverb
+echo "Do you $verb your $adjective $noun $adverb? That's hilarious!"
