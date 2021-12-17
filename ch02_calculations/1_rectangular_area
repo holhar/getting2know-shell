@@ -1,0 +1,8 @@
+#!/bin/bash
+
+read -p "What is the length of the room in centimeters? " length
+read -p "What is the width of the room in centimeters? " width
+echo "You entered dimensions of $length cm by $width cm."
+echo "The area is"
+echo "$((length * width)) square cm"
+printf %.3f\\n "$((length * width / 10000))"
